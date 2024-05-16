@@ -9,7 +9,10 @@ const salesRouter = require("./routes/sales.router");
 
 const cors = require("cors");
 const corsOptions = {
-  origin: ["http://localhost:3000"],
+  origin: [
+    "http://localhost:3000",
+    "https://inventory-backend-zpce.onrender.com",
+  ],
   credentials: true,
   optionSuccessStatus: 200,
 };
